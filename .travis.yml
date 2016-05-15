@@ -1,3 +1,9 @@
 language: ruby
 rvm:
   - 2.0.0-p247
+
+ deploy:
+  provider: heroku
+  app: tarea2-pablosamaja
+  api_key:
+    secure: "ac5b7d64-d583-45f2-8f5e-0567ca0d64df"
