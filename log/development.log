@@ -781,3 +781,567 @@ Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 14:54:17 -0300
 Processing by HomeController#buscar as */*
   Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
 Completed 200 OK in 519ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (68.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (34.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:11:39 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 760ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:13:15 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 495ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:16:34 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 546ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/home_controller.rb:16:in `[]'
+  app/controllers/home_controller.rb:16:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (98.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (165.5ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:17:54 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 742ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:18:18 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 532ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:37:20 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 623ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:37:51 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 533ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:38:41 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 537ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:47:29 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1842ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Tempfile into String):
+  app/controllers/home_controller.rb:18:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (69.2ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.8ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:48:19 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1846ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Tempfile into String):
+  app/controllers/home_controller.rb:18:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (121.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 15:57:26 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 2736ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Tempfile into String):
+  app/controllers/home_controller.rb:18:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (21.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (75.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (159.1ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:00:53 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/home_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (81.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (137.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (107.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (22.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (204.1ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:02:06 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1681ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Tempfile into String):
+  app/controllers/home_controller.rb:18:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (69.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:03:01 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/home_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.7ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.2ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (105.1ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:03:28 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/home_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (131.7ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:04:12 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1408ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:05:38 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1551ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:05:55 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1391ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:15:46 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 2434ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:24:51 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1498ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `string' for #<HomeController:0x007f8ea48c3400>
+Did you mean?  String):
+  app/controllers/home_controller.rb:21:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.7ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:25:20 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1488ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:46:24 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:30: syntax error, unexpected ( arg, expecting keyword_end
+		arregloDeDatos << JSON.generate (hash)
+		                                 ^):
+  app/controllers/home_controller.rb:30: syntax error, unexpected ( arg, expecting keyword_end
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.3ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:48:02 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1344ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:48:29 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1562ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:51:27 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1262ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Array into String):
+  app/controllers/home_controller.rb:33:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (82.4ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:55:10 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:31: syntax error, unexpected tUMINUS_NUM, expecting keyword_then or ';' or '\n'
+		if i == data.length -1 
+		                     ^
+/home/pablo/tarea2taller/app/controllers/home_controller.rb:33: syntax error, unexpected keyword_else, expecting keyword_end
+		else 
+		    ^
+/home/pablo/tarea2taller/app/controllers/home_controller.rb:41: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/home_controller.rb:31: syntax error, unexpected tUMINUS_NUM, expecting keyword_then or ';' or '\n'
+  app/controllers/home_controller.rb:33: syntax error, unexpected keyword_else, expecting keyword_end
+  app/controllers/home_controller.rb:41: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (7.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (85.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:57:20 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1358ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:58:04 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1962ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 16:58:42 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1375ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:00:52 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1243ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:01:18 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1353ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:02:00 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1331ms (ActiveRecord: 0.0ms)
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/home_controller.rb:35:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.2ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (8.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (86.2ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:02:47 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1337ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:03:26 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1423ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (784: unexpected token at '"[\"{\\\"tags\\\":[\\\"holita\\\",\\\"giornatadisole\\\",\\\"crazygirl\\\",\\\"sole\\\",\\\"selfietime\\\",\\\"hola\\\",\\\"ciaone\\\"],\\\"username\\\":\\\"steestellina\\\",\\\"likes\\\":32,\\\"caption\\\":\\\"Giornata di sole ☀️ #giornatadisole #hola #sole #selfietime #holita #ciaone #crazygirl\\\"}\", \"{\\\"tags\\\":[\\\"wusgood\\\",\\\"sup\\\",\\\"konichiwa\\\",\\\"wassup\\\",\\\"holacomoestas\\\",\\\"hola\\\"],\\\"username\\\":\\\"loretta.is.a.panda\\\",\\\"likes\\\":1,\\\"caption\\\":\\\"Hello! #wassup #sup #wusgood #hola #holacomoestas #konichiwa\\\"}\", \"{\\\"tags\\\":[\\\"spagna\\\",\\\"adiósmadrid\\\",\\\"ryaner\\\",\\\"hola\\\",\\\"travel\\\"],\\\"username\\\":\\\"m.marghe_\\\",\\\"likes\\\":5,\\\"caption\\\":\\\"...from the sky🌍 #ryaner #adiósMadrid #spagna #hola #travel\\\"}\", \"{\\\"tags\\\":[\\\"beautifulday\\\",\\\"solotu\\\",\\\"followback\\\",\\\"feliz\\\",\\\"latinboy\\\",\\\"piensoenti\\\",\\\"tequieromucho\\\",\\\"bronx\\\",\\\"italy\\\",\\\"latino\\\",\\\"hola\\\"],\\\"username\\\":\\\"luca.mendez.92\\\",\\\"likes\\\":1,\\\"caption\\\":\\\"#feliz#latinboy#hola#followback#beautifulday#italy#latino#bronx#piensoenti#solotu#tequieromucho\\\"}\", \"{\\\"tags\\\":[\\\"goldenretriever\\\",\\\"dogsofinstagram\\\",\\\"pets\\\",\\\"dogs\\\",\\\"hola\\\",\\\"laamo\\\"],\\\"username\\\":\\\"2pugsathome\\\",\\\"likes\\\":5,\\\"caption\\\":\\\"Mara 💙 #goldenretriever #dogs #dogsofinstagram #hola #laamo #pets\\\"}\", \"{\\\"tags\\\":[\\\"cars\\\",\\\"liloandstitch\\\",\\\"jasmine\\\",\\\"7dwarfs\\\",\\\"aladin\\\",\\\"sleepingbeauty\\\",\\\"hola\\\",\\\"lionking\\\",\\\"frozen\\\",\\\"cinderella\\\",\\\"beautyandthebeast\\\",\\\"up\\\",\\\"hercules\\\",\\\"tangled\\\",\\\"littlemermaid\\\",\\\"shrek\\\",\\\"snowwhite\\\"],\\\"username\\\":\\\"taniadvs\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"animation birthday party\\\\nbecause he knows me!\\\\n\\\\n#hola #beautyandthebeast #liloandstitch #aladin #jasmine #sleepingbeauty #frozen #up #shrek #cars #snowwhite #7dwarfs #tangled #littlemermaid #lionking #hercules #cinderella\\\"}\", \"{\\\"tags\\\":[\\\"sugarboy\\\",\\\"ehh\\\",\\\"ambitionz\\\",\\\"hola\\\"],\\\"username\\\":\\\"uche_cool\\\",\\\"likes\\\":79,\\\"caption\\\":\\\"#Hola#hola #sugarboy #ehh #Ambitionz\\\"}\", \"{\\\"tags\\\":[\\\"instachile\\\",\\\"linkinpark\\\",\\\"hola\\\",\\\"like4like\\\"],\\\"username\\\":\\\"josse.xp\\\",\\\"likes\\\":2,\\\"caption\\\":\\\"Cry to yourself🎶 #linkinpark #instachile #like4like #hola\\\"}\", \"{\\\"tags\\\":[\\\"avto\\\",\\\"hello\\\",\\\"hola\\\",\\\"travel\\\"],\\\"username\\\":\\\"tosha_bam\\\",\\\"likes\\\":1,\\\"caption\\\":\\\"Когда на переднем:) #hola #hello #avto #travel\\\"}\", \"{\\\"tags\\\":[\\\"secludedbeach\\\",\\\"balearicislands\\\",\\\"jeebieontour\\\",\\\"twerkonsunday\\\",\\\"hola\\\",\\\"sungod\\\",\\\"igtravel\\\",\\\"twerkforjesus\\\",\\\"menorca\\\",\\\"travelgram\\\",\\\"paradise\\\",\\\"espana\\\",\\\"spain\\\",\\\"yasgawd\\\"],\\\"username\\\":\\\"iamjeebie\\\",\\\"likes\\\":14,\\\"caption\\\":\\\"Always hard at work work work zaddy \\\\n#TwerkOnSunday #TwerkForJesus #SunGod #YasGawd #Paradise #SecludedBeach #BalearicIslands #Menorca #Spain #Espana #Hola #JeebieOnTour #TravelGram #IGTravel\\\"}\", \"{\\\"tags\\\":[\\\"cute\\\",\\\"quillota\\\",\\\"vaquero\\\",\\\"madrid\\\",\\\"sol\\\",\\\"tbt\\\",\\\"jeje\\\",\\\"🌒\\\",\\\"follow4follow\\\",\\\"mellow\\\",\\\"chilegram\\\",\\\"hola\\\",\\\"cool\\\",\\\"likeforlikeback\\\",\\\"mg\\\",\\\"hambre\\\",\\\"restaurant\\\",\\\"plaza\\\",\\\"calera\\\",\\\"siguemeytesigo\\\",\\\"matas\\\",\\\"sinfiltro\\\",\\\"likeforlike\\\",\\\"night\\\",\\\"blancoynegro\\\",\\\"cav\\\"],\\\"username\\\":\\\"ciaaro\\\",\\\"likes\\\":10,\\\"caption\\\":\\\"👽💖👏🏻#Hola #Siguemeytesigo #quillota #calera #plaza #restaurant #jeje #mg #cute #chilegram #sinfiltro #night #matas #hambre #sol #tbt #cute #🌒 #CAV #vaquero #mg #mg #mg #mg #mg #mg #likeforlike #mg #likeforlikeback #follow4follow #mellow #madrid #cool #blancoynegro\\\"}\", \"{\\\"tags\\\":[\\\"quotes\\\",\\\"vidadeparejas\\\",\\\"d\\\",\\\"amor\\\",\\\"frases\\\",\\\"followme\\\",\\\"hola\\\"],\\\"username\\\":\\\"vidadeparejas\\\",\\\"likes\\\":76,\\\"caption\\\":\\\"#vidadeparejas #followme #frases #quotes #hola #amor #d \\\\n@vidadeparejas 👈👍💕\\\"}\", \"{\\\"tags\\\":[\\\"familyvacation\\\",\\\"hawaiianisland\\\",\\\"hola\\\",\\\"hawaiilife\\\"],\\\"username\\\":\\\"ellisbaby4eva\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"Booked n ready baby!!! Now dats how u getaway #Hola #hawaiianisland #familyvacation #hawaiilife 🌄🌅💯✌😎🍹👙🐋🐟🐚🌲🍍🌴🏝⛱🏖✈🛳⛵\\\"}\", \"{\\\"tags\\\":[\\\"cute\\\",\\\"quillota\\\",\\\"vaquero\\\",\\\"madrid\\\",\\\"sol\\\",\\\"tbt\\\",\\\"jeje\\\",\\\"🌒\\\",\\\"follow4follow\\\",\\\"mellow\\\",\\\"chilegram\\\",\\\"hola\\\",\\\"cool\\\",\\\"likeforlikeback\\\",\\\"mg\\\",\\\"hambre\\\",\\\"restaurant\\\",\\\"plaza\\\",\\\"calera\\\",\\\"siguemeytesigo\\\",\\\"matas\\\",\\\"sinfiltro\\\",\\\"likeforlike\\\",\\\"night\\\",\\\"blancoynegro\\\",\\\"cav\\\"],\\\"username\\\":\\\"ciaaro\\\",\\\"likes\\\":38,\\\"caption\\\":\\\"✌🏻️🔮💸#Hola #Siguemeytesigo #quillota #calera #plaza #restaurant #jeje #mg #cute #chilegram #sinfiltro #night #matas #hambre #sol #tbt #cute #🌒 #CAV #vaquero #mg #mg #mg #mg #mg #mg #likeforlike #mg #likeforlikeback #follow4follow #mellow #madrid #cool #blancoynegro\\\"}\", \"{\\\"tags\\\":[\\\"likeforlikeback\\\",\\\"domingo\\\",\\\"buenanoche\\\",\\\"like4like\\\",\\\"hola\\\",\\\"likes\\\"],\\\"username\\\":\\\"aguustin.garcia\\\",\\\"likes\\\":5,\\\"caption\\\":\\\"¡ Buena Noche ! 👌\\\\n#Hola \\\\n#BuenaNoche \\\\n#Domingo\\\\n#Likes \\\\n#Like4Like \\\\n#LikeForLikeBack\\\"}\", \"{\\\"tags\\\":[\\\"csm\\\",\\\"nohayreal\\\",\\\"newyork\\\",\\\"chao\\\",\\\"paris\\\",\\\"felicidad\\\",\\\"colombia\\\",\\\"swing\\\",\\\"poliedrodecaracas\\\",\\\"venezuela\\\",\\\"hola\\\"],\\\"username\\\":\\\"sebascastellanos123\\\",\\\"likes\\\":5,\\\"caption\\\":\\\"Donde en este sitio están los mejores eventos.. #poliedrodecaracas #felicidad #hola #chao #csm #nohayreal #swing #venezuela #colombia #paris #newyork\\\"}\", \"{\\\"tags\\\":[\\\"buonappetito\\\",\\\"home\\\",\\\"fragole\\\",\\\"hola\\\"],\\\"username\\\":\\\"harihanna\\\",\\\"likes\\\":1,\\\"caption\\\":\\\"#fragole #buonappetito #hola #home 😏😏❤\\\"}\", \"{\\\"tags\\\":[\\\"hola\\\"],\\\"username\\\":\\\"josealvarez350z\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"#Hola\\\"}\", \"{\\\"tags\\\":[\\\"hola\\\",\\\"friend\\\"],\\\"username\\\":\\\"gariquelmep\\\",\\\"likes\\\":2,\\\"caption\\\":\\\"Patricio ⭐️ #friend #hola\\\"}\", \"{\\\"tags\\\":[\\\"cute\\\",\\\"quillota\\\",\\\"vaquero\\\",\\\"madrid\\\",\\\"sol\\\",\\\"tbt\\\",\\\"jeje\\\",\\\"🌒\\\",\\\"follow4follow\\\",\\\"mellow\\\",\\\"chilegram\\\",\\\"hola\\\",\\\"cool\\\",\\\"likeforlikeback\\\",\\\"mg\\\",\\\"hambre\\\",\\\"restaurant\\\",\\\"plaza\\\",\\\"calera\\\",\\\"siguemeytesigo\\\",\\\"matas\\\",\\\"sinfiltro\\\",\\\"likeforlike\\\",\\\"night\\\",\\\"blancoynegro\\\",\\\"cav\\\"],\\\"username\\\":\\\"ciaaro\\\",\\\"likes\\\":38,\\\"caption\\\":\\\"😆🌥#Hola #Siguemeytesigo #quillota #calera #plaza #restaurant #jeje #mg #cute #chilegram #sinfiltro #night #matas #hambre #sol #tbt #cute #🌒 #CAV #vaquero #mg #mg #mg #mg #mg #mg #likeforlike #mg #likeforlikeback #follow4follow #mellow #madrid #cool #blancoynegro\\\"}\"]"'):
+  app/controllers/home_controller.rb:35:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.7ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:07:40 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 500 Internal Server Error in 1314ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (784: unexpected token at '"[\"{\\\"tags\\\":[\\\"hola\\\"],\\\"username\\\":\\\"lescanoluci11\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"#hola 😌😏😎👌😘😘😘😘😏✌💕😊🙈😘\\\"}\", \"{\\\"tags\\\":[\\\"bearded\\\",\\\"scruffy\\\",\\\"relaxing\\\",\\\"selfie\\\",\\\"men\\\",\\\"bright\\\",\\\"guy\\\",\\\"tan\\\",\\\"scruff\\\",\\\"weekend\\\",\\\"bubbles\\\",\\\"hola\\\",\\\"me\\\",\\\"laliving\\\",\\\"hottub\\\",\\\"la\\\",\\\"sun\\\",\\\"instaguy\\\",\\\"dude\\\",\\\"day\\\",\\\"sunday\\\",\\\"hollywood\\\",\\\"latino\\\",\\\"instamood\\\",\\\"happy\\\"],\\\"username\\\":\\\"donny_leal\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"😀😁 #sun #day #happy #hottub #weekend #relaxing #instamood #me #scruffy #dude #selfie #guy #men #scruff #bearded #tan #bright #la #hollywood #laliving #hola #instaguy #latino #sunday #bubbles\\\"}\", \"{\\\"tags\\\":[\\\"body\\\",\\\"latin\\\",\\\"gaypic\\\",\\\"gay\\\",\\\"gayboy\\\",\\\"instalike\\\",\\\"selfie\\\",\\\"pic\\\",\\\"lgbt\\\",\\\"calvinklein\\\",\\\"men\\\",\\\"follow4follow\\\",\\\"gayguy\\\",\\\"home\\\",\\\"instafashion\\\",\\\"hola\\\",\\\"me\\\",\\\"boy\\\",\\\"gayselfie\\\",\\\"followforfollow\\\",\\\"instafollow\\\",\\\"hello\\\",\\\"instagood\\\",\\\"sunday\\\",\\\"guy\\\",\\\"latino\\\",\\\"venezuela\\\",\\\"chico\\\",\\\"today\\\",\\\"gaymen\\\"],\\\"username\\\":\\\"yunnezr\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"#Hello #hola #instafollow #instagood #instalike #instafashion #calvinklein #me #latino #latin #venezuela #follow4follow #home #selfie #pic #lgbt #gay #boy #men #guy #chico #gaymen #gayboy #gayguy #sunday #gaypic #gayselfie #followforfollow #body #today aqui un selfie ladillado por que tenia tiempo sin colocar una foto y bueno como siempre digo sigueme y te sigo si me dejas de seguir ya sabes lik3 for like xp\\\"}\", \"{\\\"tags\\\":[\\\"finnishgirl\\\",\\\"hair\\\",\\\"hola\\\",\\\"chilling\\\",\\\"dontmind\\\",\\\"wow\\\",\\\"today\\\"],\\\"username\\\":\\\"_narissaraa\\\",\\\"likes\\\":93,\\\"caption\\\":\\\"Got me going mad, when you dress like that\\\\nGirl, it's trap when you act like that\\\\n#today#finnishgirl#hola#dontmind#chilling#hair#wow\\\"}\", \"{\\\"tags\\\":[\\\"hola\\\",\\\"ferrarichallenge\\\",\\\"punks\\\",\\\"mybutthurtsonthesesteps\\\"],\\\"username\\\":\\\"annaconcierge\\\",\\\"likes\\\":1,\\\"caption\\\":\\\"Austin, Texas chicks!!! #punks #ferrarichallenge #hola #mybutthurtsonthesesteps\\\"}\", \"{\\\"tags\\\":[\\\"hola\\\"],\\\"username\\\":\\\"citlaliv237\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"#hola\\\"}\", \"{\\\"tags\\\":[\\\"funny\\\",\\\"musically\\\",\\\"song\\\",\\\"pet\\\",\\\"coke\\\",\\\"wrong\\\",\\\"cat\\\",\\\"yass\\\",\\\"clarise\\\",\\\"shareacoke\\\",\\\"spanish\\\",\\\"sing\\\",\\\"you\\\",\\\"followme\\\",\\\"hola\\\"],\\\"username\\\":\\\"clarise_the_cat\\\",\\\"likes\\\":2,\\\"caption\\\":\\\"I'm pretty sure this says pretty cat in Spanish #shareacoke#followme#cat#pet#Yass.  #hola#you#clarise#song#sing#musically#funny#wrong#spanish#coke\\\"}\", \"{\\\"tags\\\":[\\\"holita\\\",\\\"giornatadisole\\\",\\\"sole\\\",\\\"grazygirl\\\",\\\"ciaone\\\",\\\"hola\\\",\\\"selfietime\\\"],\\\"username\\\":\\\"steestellina\\\",\\\"likes\\\":25,\\\"caption\\\":\\\"Giornata di sole ☀️ #giornatadisole #hola #sole #selfietime #holita #grazygirl #ciaone\\\"}\", \"{\\\"tags\\\":[\\\"foodie\\\",\\\"歐遊畢旅第二站\\\",\\\"barcelona\\\",\\\"hola\\\"],\\\"username\\\":\\\"__mei.608__\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"嗯...在巴賽隆那也是吃蠻爽的 😅\\\\n幾乎每天都吃海鮮燉飯\\\\n想吃的都有吃到阿姆阿姆\\\\n真的隨時隨地都在吃 (真可怕\\\\n#歐遊畢旅第二站 #Barcelona #hola #foodie\\\"}\", \"{\\\"tags\\\":[\\\"flavia\\\",\\\"bomb\\\",\\\"work\\\",\\\"friends\\\",\\\"hola\\\",\\\"😎\\\"],\\\"username\\\":\\\"giuliashirley\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"💣😎tutte tane #friends #bomb #😎 #work #flavia #hola\\\"}\", \"{\\\"tags\\\":[\\\"saturdaynight\\\",\\\"cute\\\",\\\"fashion\\\",\\\"russianboy\\\",\\\"skyporn\\\",\\\"awesome\\\",\\\"statigram\\\",\\\"tbt\\\",\\\"russiangirl\\\",\\\"kiss\\\",\\\"italiangirl\\\",\\\"hola\\\",\\\"funny\\\",\\\"swag\\\",\\\"englishgirl\\\",\\\"pronta\\\",\\\"english\\\",\\\"englishplace\\\",\\\"all_shots\\\",\\\"instagood\\\",\\\"f4f\\\",\\\"stylish\\\",\\\"italiangirls\\\",\\\"red\\\",\\\"l4l\\\"],\\\"username\\\":\\\"isa_bir\\\",\\\"likes\\\":45,\\\"caption\\\":\\\"•LAST NIGHT• #pronta #saturdaynight #l4l #f4f #italiangirl #italiangirls #funny #all_shots #swag #statigram #awesome #cute #fashion #stylish #tbt #instagood #russiangirl #russianboy #englishplace #english #englishgirl #kiss #hola #red #skyporn\\\"}\", \"{\\\"tags\\\":[\\\"hola\\\",\\\"hermanodelalma\\\",\\\"alpedo\\\"],\\\"username\\\":\\\"lautaro.fino\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"Con el mas crack #HermanoDelAlma\\\\n#Hola #Alpedo\\\"}\", \"{\\\"tags\\\":[\\\"holita\\\",\\\"giornatadisole\\\",\\\"crazygirl\\\",\\\"sole\\\",\\\"selfietime\\\",\\\"hola\\\",\\\"ciaone\\\"],\\\"username\\\":\\\"steestellina\\\",\\\"likes\\\":32,\\\"caption\\\":\\\"Giornata di sole ☀️ #giornatadisole #hola #sole #selfietime #holita #ciaone #crazygirl\\\"}\", \"{\\\"tags\\\":[\\\"wusgood\\\",\\\"sup\\\",\\\"konichiwa\\\",\\\"wassup\\\",\\\"holacomoestas\\\",\\\"hola\\\"],\\\"username\\\":\\\"loretta.is.a.panda\\\",\\\"likes\\\":1,\\\"caption\\\":\\\"Hello! #wassup #sup #wusgood #hola #holacomoestas #konichiwa\\\"}\", \"{\\\"tags\\\":[\\\"spagna\\\",\\\"adiósmadrid\\\",\\\"ryaner\\\",\\\"hola\\\",\\\"travel\\\"],\\\"username\\\":\\\"m.marghe_\\\",\\\"likes\\\":7,\\\"caption\\\":\\\"...from the sky🌍 #ryaner #adiósMadrid #spagna #hola #travel\\\"}\", \"{\\\"tags\\\":[\\\"beautifulday\\\",\\\"solotu\\\",\\\"followback\\\",\\\"feliz\\\",\\\"latinboy\\\",\\\"piensoenti\\\",\\\"tequieromucho\\\",\\\"bronx\\\",\\\"italy\\\",\\\"latino\\\",\\\"hola\\\"],\\\"username\\\":\\\"luca.mendez.92\\\",\\\"likes\\\":2,\\\"caption\\\":\\\"#feliz#latinboy#hola#followback#beautifulday#italy#latino#bronx#piensoenti#solotu#tequieromucho\\\"}\", \"{\\\"tags\\\":[\\\"goldenretriever\\\",\\\"dogsofinstagram\\\",\\\"pets\\\",\\\"dogs\\\",\\\"hola\\\",\\\"laamo\\\"],\\\"username\\\":\\\"2pugsathome\\\",\\\"likes\\\":7,\\\"caption\\\":\\\"Mara 💙 #goldenretriever #dogs #dogsofinstagram #hola #laamo #pets\\\"}\", \"{\\\"tags\\\":[\\\"cars\\\",\\\"liloandstitch\\\",\\\"jasmine\\\",\\\"7dwarfs\\\",\\\"aladin\\\",\\\"sleepingbeauty\\\",\\\"hola\\\",\\\"lionking\\\",\\\"frozen\\\",\\\"cinderella\\\",\\\"beautyandthebeast\\\",\\\"up\\\",\\\"hercules\\\",\\\"tangled\\\",\\\"littlemermaid\\\",\\\"shrek\\\",\\\"snowwhite\\\"],\\\"username\\\":\\\"taniadvs\\\",\\\"likes\\\":0,\\\"caption\\\":\\\"animation birthday party\\\\nbecause he knows me!\\\\n\\\\n#hola #beautyandthebeast #liloandstitch #aladin #jasmine #sleepingbeauty #frozen #up #shrek #cars #snowwhite #7dwarfs #tangled #littlemermaid #lionking #hercules #cinderella\\\"}\", \"{\\\"tags\\\":[\\\"sugarboy\\\",\\\"ehh\\\",\\\"ambitionz\\\",\\\"hola\\\"],\\\"username\\\":\\\"uche_cool\\\",\\\"likes\\\":81,\\\"caption\\\":\\\"#Hola#hola #sugarboy #ehh #Ambitionz\\\"}\", \"{\\\"tags\\\":[\\\"instachile\\\",\\\"linkinpark\\\",\\\"hola\\\",\\\"like4like\\\"],\\\"username\\\":\\\"josse.xp\\\",\\\"likes\\\":5,\\\"caption\\\":\\\"Cry to yourself🎶 #linkinpark #instachile #like4like #hola\\\"}\"]"'):
+  app/controllers/home_controller.rb:35:in `buscar'
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (97.1ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:08:02 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1218ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:08:58 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1512ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:14:12 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:31: syntax error, unexpected tSYMBEG, expecting '('
+...s => likes, :caption=> texto. :url =>url}
+...                               ^):
+  app/controllers/home_controller.rb:31: syntax error, unexpected tSYMBEG, expecting '('
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.0ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (71.5ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:14:35 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1245ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:15:36 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1322ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:24:16 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:32: syntax error, unexpected tIDENTIFIER, expecting '}'
+		arregloDeDatos << hash
+		              ^
+/home/pablo/tarea2taller/app/controllers/home_controller.rb:38: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/home_controller.rb:32: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/home_controller.rb:38: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.5ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (77.1ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:24:48 -0300
+
+SyntaxError (/home/pablo/tarea2taller/app/controllers/home_controller.rb:38: syntax error, unexpected tSTRING_DEND, expecting keyword_end):
+  app/controllers/home_controller.rb:38: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+
+
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.9ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.8ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/pablo/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (77.4ms)
+
+
+Started POST "/instagram/tag/buscar" for 127.0.0.1 at 2016-05-15 17:25:22 -0300
+Processing by HomeController#buscar as */*
+  Parameters: {"tag"=>"hola", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}
+Completed 200 OK in 1754ms (Views: 6.3ms | ActiveRecord: 0.0ms)
