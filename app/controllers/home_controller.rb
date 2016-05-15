@@ -33,7 +33,7 @@ class HomeController < ApplicationController
 		i+=1
 	end
 	
-	render json:{ metadata:{total: total}, posts: arregloDeDatos, version: '1.0.2'}
+	render json:{ metadata:{total: total}, posts: arregloDeDatos, version: '1.0.3'}
   
 	end
 end
